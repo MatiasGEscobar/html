@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    background-image: url("https://img.freepik.com/foto-gratis/marco-plano-laico-articulos-limpieza-fondo-blanco_23-2148357494.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+header{
+  color: rgb(24, 24, 224);
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  color: #3fc5eb;
+}
+
+.flexbotones{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.botones{
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid white; 
+  color: white; 
+  padding: 0em 15px; 
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 20px; 
+  cursor: pointer; 
+  border-radius: 8px; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.boton {
+  width:44em;
+  display: flex; /* Usa Flexbox para alinear la imagen y el texto */
+  align-items: center; /* Alinea verticalmente el contenido del botón */
+  justify-content: center; /* Centra horizontalmente el contenido del botón */
+  background-color: #410db8; /* Color de fondo de WhatsApp */
+  color: white; /* Color del texto */
+  padding: 10px 20px; /* Relleno (padding) */
+  text-decoration: none; /* Sin subrayado */
+  font-size: 16px; /* Tamaño de la fuente */
+  border: none; /* Sin borde */
+  border-radius: 8px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Estilo de la imagen dentro del botón */
+.imagenboton {
+  width: 20px; /* Ancho de la imagen */
+  height: 20px; /* Altura de la imagen */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+/* Efecto al pasar el ratón sobre el botón */
+.boton:hover {
+  background-color: #1EBEA5; /* Color de fondo al pasar el ratón */
+}
+
+.footer{
+  display: flex;
+  justify-content: left;
+}
