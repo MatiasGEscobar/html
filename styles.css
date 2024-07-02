@@ -1,5 +1,5 @@
-body {
-    font-family: 'Arial', sans-serif;
+.cuerpoinicial{
+    font-family: 'Courier', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     margin: 20px;
@@ -9,8 +9,22 @@ body {
     background-repeat: no-repeat; 
     background-attachment: fixed;
 }
+
+.cuerpodesengrasantes{
+  font-family: 'Courier', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+    background-image: url("https://tierrahomedesign.com/wp-content/uploads/2022/03/cocina-moderna-blanca-1.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
 header{
-  color: rgb(24, 24, 224);
+  font-size: 1.5em;
+  color: rgb(15, 60, 123);
   display: flex;
   justify-content: center;
 }
@@ -28,16 +42,15 @@ main{
 .botones{
   background-color: rgba(255, 255, 255, 0.3);
   border: 2px solid white; 
-  color: white; 
-  padding: 0em 15px; 
+  color: rgb(51, 108, 214); 
+  padding: 0.5em 40px; 
   text-align: center; 
   text-decoration: none;
   display: inline-block; 
-  font-size: 16px; 
-  margin: 20px; 
+  font-size: 20px; 
+  margin: 2em; 
   cursor: pointer; 
   border-radius: 8px; 
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 
