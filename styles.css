@@ -2,7 +2,7 @@
     font-family: 'Courier', sans-serif;
     background-color: #f4f4f4;
     color: #333;
-    margin: 20px;
+    margin: 0.5em;
     background-image: url("https://img.freepik.com/foto-gratis/marco-plano-laico-articulos-limpieza-fondo-blanco_23-2148357494.jpg");
     background-size: cover; 
     background-position: center; 
@@ -34,8 +34,9 @@ main{
 }
 
 .flexbotones{
-  display: flex;
-  justify-content: space-around;
+display: flex;
+justify-content:flex-start;
+align-items: center;
 }
 
 
@@ -43,11 +44,11 @@ main{
   background-color: rgba(255, 255, 255, 0.3);
   border: 2px solid white; 
   color: rgb(51, 108, 214); 
-  padding: 0.5em 40px; 
+  padding: 0.5em; 
   text-align: center; 
   text-decoration: none;
   display: inline-block; 
-  font-size: 20px; 
+  font-size:25px; 
   margin: 2em; 
   cursor: pointer; 
   border-radius: 8px; 
@@ -55,17 +56,35 @@ main{
 
 
 .boton {
-  width:44em;
+  width:74.4em;
   display: flex; /* Usa Flexbox para alinear la imagen y el texto */
   align-items: center; /* Alinea verticalmente el contenido del botón */
   justify-content: center; /* Centra horizontalmente el contenido del botón */
-  background-color: #410db8; /* Color de fondo de WhatsApp */
+  background-color: #410db8; /* Color de fondo de Boton */
   color: white; /* Color del texto */
-  padding: 10px 20px; /* Relleno (padding) */
+  padding: 10px; /* Relleno (padding) */
   text-decoration: none; /* Sin subrayado */
-  font-size: 16px; /* Tamaño de la fuente */
+  font-size: 10px; /* Tamaño de la fuente */
   border: none; /* Sin borde */
   border-radius: 8px; /* Bordes redondeados */
+  flex: 1;
+  transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.boton2 {
+  width:36.2em;
+  display: flex; /* Usa Flexbox para alinear la imagen y el texto */
+  align-items: center; /* Alinea verticalmente el contenido del botón */
+  justify-content: center; /* Centra horizontalmente el contenido del botón */
+  background-color: #410db8; /* Color de fondo de Boton */
+  color: white; /* Color del texto */
+  padding: 10px; /* Relleno (padding) */
+  text-decoration: none; /* Sin subrayado */
+  font-size: 10px; /* Tamaño de la fuente */
+  border: none; /* Sin borde */
+  border-radius: 8px; /* Bordes redondeados */
+  flex: 1;
   transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
   cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
 }
@@ -83,6 +102,12 @@ main{
 }
 
 .footer{
-  display: flex;
-  justify-content: left;
+margin-left: 0;
+margin-top: 1em;
+display: flex;
+justify-content:flex-start;
+}
+
+footer{
+  margin-top: 6em;
 }
