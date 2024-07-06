@@ -12,7 +12,7 @@
 
 .cuerpodesengrasantes{
   font-family: 'Courier', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #cfc9c9;
     color: #333;
     margin: 20px;
     background-image: url("https://tierrahomedesign.com/wp-content/uploads/2022/03/cocina-moderna-blanca-1.jpg");
@@ -31,12 +31,16 @@ header{
 
 main{
   color: #3fc5eb;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
 }
 
 .flexbotones{
+margin-top: 1.3em;
 display: flex;
 justify-content:flex-start;
-align-items: center;
 }
 
 
@@ -56,13 +60,13 @@ align-items: center;
 
 
 .boton {
-  width:74.4em;
+  width:75.18em;
   display: flex; /* Usa Flexbox para alinear la imagen y el texto */
   align-items: center; /* Alinea verticalmente el contenido del botón */
   justify-content: center; /* Centra horizontalmente el contenido del botón */
   background-color: #410db8; /* Color de fondo de Boton */
   color: white; /* Color del texto */
-  padding: 10px; /* Relleno (padding) */
+  padding: 6px; /* Relleno (padding) */
   text-decoration: none; /* Sin subrayado */
   font-size: 10px; /* Tamaño de la fuente */
   border: none; /* Sin borde */
@@ -73,13 +77,13 @@ align-items: center;
 }
 
 .boton2 {
-  width:36.2em;
+  width:37em;
   display: flex; /* Usa Flexbox para alinear la imagen y el texto */
   align-items: center; /* Alinea verticalmente el contenido del botón */
   justify-content: center; /* Centra horizontalmente el contenido del botón */
   background-color: #410db8; /* Color de fondo de Boton */
   color: white; /* Color del texto */
-  padding: 10px; /* Relleno (padding) */
+  padding: 6px; /* Relleno (padding) */
   text-decoration: none; /* Sin subrayado */
   font-size: 10px; /* Tamaño de la fuente */
   border: none; /* Sin borde */
@@ -98,16 +102,44 @@ align-items: center;
 
 /* Efecto al pasar el ratón sobre el botón */
 .boton:hover {
+  
+  background-color: #1EBEA5; /* Color de fondo al pasar el ratón */
+}
+
+.boton2:hover {
   background-color: #1EBEA5; /* Color de fondo al pasar el ratón */
 }
 
 .footer{
 margin-left: 0;
-margin-top: 1em;
+margin-top: 0.3em;
 display: flex;
 justify-content:flex-start;
 }
 
 footer{
-  margin-top: 6em;
+  margin-top: 4em;
 }
+
+table{
+  width: 100%;
+  color: #0a0a0a;
+  font-size:20px;
+  }
+
+th,.cuadromedio{
+  border: 0.1em ridge rgb(51, 47, 47);
+  padding: 10px;
+  vertical-align: top;
+}
+
+.cuadroprecio{
+  border: 0.1em ridge rgb(51, 47, 47);
+  padding: 10px;
+}
+
+.imgtabla{
+  margin-top: 1em;
+  width: 10em;
+  height: 10em;
+  }
