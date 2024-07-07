@@ -1,25 +1,79 @@
 .cuerpoinicial{
-    font-family: 'Courier', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0.5em;
-    background-image: url("https://img.freepik.com/foto-gratis/marco-plano-laico-articulos-limpieza-fondo-blanco_23-2148357494.jpg");
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
+  font-family: 'Courier', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0.5em;
+  background-image: url("https://img.freepik.com/foto-gratis/marco-plano-laico-articulos-limpieza-fondo-blanco_23-2148357494.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  filter: contrast(200%);
 }
 
 .cuerpodesengrasantes{
   font-family: 'Courier', sans-serif;
-    background-color: #cfc9c9;
-    color: #333;
-    margin: 0.5em;
-    background-image: url("https://tierrahomedesign.com/wp-content/uploads/2022/03/cocina-moderna-blanca-1.jpg");
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
+  background-color: #cfc9c9;
+  color: #333;
+  margin: 0.5em;
+  background-image: url("https://tierrahomedesign.com/wp-content/uploads/2022/03/cocina-moderna-blanca-1.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  filter: contrast(200%);
+}
+
+.CuerpoDesinfectante{
+  font-family: 'Courier', sans-serif;
+  background-color: #cfc9c9;
+  color: #333;
+  margin: 0.5em;
+  background-image: url("https://www.osman.es/wp-content/uploads/2020/03/desinfectantes-medioambiente.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  filter: contrast(200%);
+}
+
+.cuerpoElementos{
+  font-family: 'Courier', sans-serif;
+  background-color: #cfc9c9;
+  color: #333;
+  margin: 0.5em;
+  background-image: url("https://previews.123rf.com/images/ghenadie/ghenadie1602/ghenadie160200062/52215682-gran-conjunto-de-productos-de-limpieza-ilustraci%C3%B3n-plana-vector-herramientas-de-limpieza-del.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  filter: contrast(200%);
+}
+
+.cuerpoInsecticida{
+  font-family: 'Courier', sans-serif;
+  background-color: #3f3e3e;
+  color: #333;
+  margin: 0.5em;
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuGgDwlQ1Y5sSWwVgCZLBq87zxL1nYjFH-rToc7YgAIwONBqE17tJBZJ5aHnVj8b86C068Cg9eARCX6D8XWCM7flu8mPOkx3VKI0cdI4hA_a7grSBC3x2lIoLIVf2dsqMTN0FYjriDBdpW/s1600/insecticida+natural.jpg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  filter: contrast(200%);
+}
+
+.cuerpoQuimico{
+  font-family: 'Courier', sans-serif;
+  background-color: #3f3e3e;
+  color: #333;
+  margin: 0.5em;
+  background-image: url("https://mejorconsalud.as.com/wp-content/uploads/2017/01/precaucion-productos-de-limpieza-2-668x400x80xX.jpg?auto=webp&quality=60&width=1920&crop=16:9,smart,safe");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  filter: contrast(200%);
 }
 
 header{
@@ -30,7 +84,7 @@ header{
 }
 
 .mainIndex{
-  color: #3fc5eb;
+  color: #4d90a3;
   padding: 0.5em;
   display: flex;
   flex-direction: column;
@@ -100,13 +154,12 @@ justify-content:flex-start;
   margin-right: 10px; /* Espacio entre la imagen y el texto */
 }
 
-/* Efecto al pasar el ratón sobre el botón */
 .boton:hover {
-  background-color: #1EBEA5; /* Color de fondo al pasar el ratón */
+  background-color: #1EBEA5;
 }
 
 .boton2:hover {
-  background-color: #1EBEA5; /* Color de fondo al pasar el ratón */
+  background-color: #1EBEA5; 
 }
 
 .footer{
@@ -121,21 +174,22 @@ footer{
 }
 
 .imgtabla{
-  margin-top: 1em;
-  width: 10em;
-  height: 10em;
+  margin-top: 1.5em;
+  width: 7em;
+  height: 7em;
   align-self: center;
   }
 
-  .lineaDeCuadros{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-  }
+.lineaDeCuadros{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
 
 .cuadroProducto{
   color: #333;
-  font-size:x-large;
+  font-size: large;
   font-weight: bold;
   border: 0.1em ridge #333;
   text-align: center;
@@ -143,7 +197,7 @@ footer{
 
 .cuadroDescripcion{
   color: #333;
-  font-size:x-large;
+  font-size: large;
   font-weight: bold;
   border: 0.1em ridge #333;
   text-align: justify;
@@ -154,7 +208,7 @@ footer{
 
 .cuadroPrecio{
   color: #333;
-  font-size:x-large;
+  font-size: large;
   font-weight: bold;
   border: 0.1em ridge #333;
   padding: 2%;
@@ -164,6 +218,7 @@ footer{
   justify-content: space-between;
 }
 
+/* ACOMODAR LOS CUADROS PARA QUE QUEDEN IGUAL Y EL FONDO  QUE NO SEA TAN BRILLANTE*/
 
 
 
