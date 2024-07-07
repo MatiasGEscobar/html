@@ -14,7 +14,7 @@
   font-family: 'Courier', sans-serif;
     background-color: #cfc9c9;
     color: #333;
-    margin: 20px;
+    margin: 0.5em;
     background-image: url("https://tierrahomedesign.com/wp-content/uploads/2022/03/cocina-moderna-blanca-1.jpg");
     background-size: cover; 
     background-position: center; 
@@ -29,7 +29,7 @@ header{
   justify-content: center;
 }
 
-main{
+.mainIndex{
   color: #3fc5eb;
   padding: 0.5em;
   display: flex;
@@ -102,7 +102,6 @@ justify-content:flex-start;
 
 /* Efecto al pasar el ratón sobre el botón */
 .boton:hover {
-  
   background-color: #1EBEA5; /* Color de fondo al pasar el ratón */
 }
 
@@ -121,25 +120,52 @@ footer{
   margin-top: 4em;
 }
 
-table{
-  width: 100%;
-  color: #0a0a0a;
-  font-size:20px;
-  }
-
-th,.cuadromedio{
-  border: 0.1em ridge rgb(51, 47, 47);
-  padding: 10px;
-  vertical-align: top;
-}
-
-.cuadroprecio{
-  border: 0.1em ridge rgb(51, 47, 47);
-  padding: 10px;
-}
-
 .imgtabla{
   margin-top: 1em;
   width: 10em;
   height: 10em;
+  align-self: center;
   }
+
+  .lineaDeCuadros{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+.cuadroProducto{
+  color: #333;
+  font-size:x-large;
+  font-weight: bold;
+  border: 0.1em ridge #333;
+  text-align: center;
+}
+
+.cuadroDescripcion{
+  color: #333;
+  font-size:x-large;
+  font-weight: bold;
+  border: 0.1em ridge #333;
+  text-align: justify;
+  padding: 0 1% 5% 1% ;
+  display: flex;
+  align-items: center;
+}
+
+.cuadroPrecio{
+  color: #333;
+  font-size:x-large;
+  font-weight: bold;
+  border: 0.1em ridge #333;
+  padding: 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+
