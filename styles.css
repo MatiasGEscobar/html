@@ -82,11 +82,18 @@
   filter: contrast(150%);
 }
 
-header{
-  font-size: 1.5em;
+.headerPrincipal{
+  margin: 0.2em;
+  font-size: 2.5em;
   color: rgb(15, 60, 123);
   display: flex;
   justify-content: center;
+  font-weight: bolder;
+}
+
+header{
+  font-size: 1.5em;
+  color: rgb(15, 60, 123);
 }
 
 .mainIndex{
@@ -118,6 +125,10 @@ justify-content:flex-start;
   cursor: pointer; 
   border-radius: 8px;
   font-weight: bold;
+}
+
+.botones:hover{
+  transform: scale(1.1);
 }
 
 
@@ -155,9 +166,10 @@ justify-content:flex-start;
 
 /* Estilo de la imagen dentro del botón */
 .imagenboton {
+  margin-left: 10px;
+  margin-right: 10px;
   width: 20px; /* Ancho de la imagen */
   height: 20px; /* Altura de la imagen */
-  margin-right: 10px; /* Espacio entre la imagen y el texto */
 }
 
 .boton:hover {
@@ -246,6 +258,31 @@ footer{
   background-color: #2eda4b; 
 }
 
+.imagenbotonInicio{
+  margin: 5px;
+  width: 40px; 
+  height: 40px; 
+}
+
+.botonCompraInicio{
+  background-color: #4090c2;
+  border: none; 
+  border-radius: 8px; 
+  transition: background-color 0.3s ease; 
+  cursor: pointer; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.botonCompraInicio:hover {
+  background-color: #2eda4b; 
+}
+
+.PosCar{
+display: flex;
+justify-content: flex-end;
+}
 
 
 
